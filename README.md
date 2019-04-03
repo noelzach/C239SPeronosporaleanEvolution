@@ -5,8 +5,8 @@ This project is an extension of a project to develop a high-throughput fungicide
 
 Analysis of oomycete fungicide sensitivity can be found in that repository
 
-###Data 
-Data associated with this project are either phylogeny files or data analysis files listed below 
+ 
+## Data associated with this project are either phylogeny files or data analysis files listed below 
 
 * Figure 1 was generated based on data presented based on the ethaboxam phenotypes presented in [Soybean Associated Oomycete Fungicide Sensitivity](https://github.com/noelzach/Community_Fungicide_Sensitivity)
 * Figure 2 was generated based on a protein alignment by cloning and sequencing beta tubulin from oomycete cultures (Accession Numbers XXX-XXX). Supplemental Table 2 includes the primers and vectors used to clone oomycete beta tubulin. 
