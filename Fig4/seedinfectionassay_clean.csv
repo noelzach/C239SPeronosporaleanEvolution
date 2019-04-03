@@ -1,0 +1,385 @@
+﻿isolate ,species,fungicide sensitivity,temperature,pathogenic,diff_F,color,biorep,techrep,treatment,treatment_name,DI,percent_col
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,1,1,2,F,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,1,2,2,F,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,1,3,2,F,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,1,1,3,F + E,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,1,2,3,F + E,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,1,3,3,F + E,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,1,1,4,F + M,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,1,2,4,F + M,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,1,3,4,F + M,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,1,1,5,F + E + M,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,1,2,5,F + E + M,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,1,3,5,F + E + M,0,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,1,1,2,F,0.05,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,1,2,2,F,0,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,1,3,2,F,0,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,1,1,3,F + E,0,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,1,2,3,F + E,0.05,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,1,3,3,F + E,0.05,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,1,1,4,F + M,0.1,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,1,2,4,F + M,0.1,20
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,1,3,4,F + M,0,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,1,1,5,F + E + M,0,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,1,2,5,F + E + M,0,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,1,3,5,F + E + M,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,2,1,2,F,0.05,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,2,2,2,F,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,2,3,2,F,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,2,1,3,F + E,0.05,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,2,2,3,F + E,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,2,3,3,F + E,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,2,1,4,F + M,0.05,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,2,2,4,F + M,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,2,3,4,F + M,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,2,1,5,F + E + M,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,2,2,5,F + E + M,0,0
+Control,Negative Control,Control,13,FALSE,FALSE,BLANK,2,3,5,F + E + M,0,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,2,1,2,F,0.05,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,2,2,2,F,0.05,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,2,3,2,F,0,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,2,1,3,F + E,0,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,2,2,3,F + E,0.05,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,2,3,3,F + E,0,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,2,1,4,F + M,0.05,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,2,2,4,F + M,0.05,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,2,3,4,F + M,0,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,2,1,5,F + E + M,0,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,2,2,5,F + E + M,0.05,0
+Control,Negative Control,Control,20,FALSE,FALSE,BLANK,2,3,5,F + E + M,0,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,1,1,2,F,0.15,80
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,1,2,2,F,0.15,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,1,3,2,F,0.05,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,1,1,3,F + E,0,60
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,1,2,3,F + E,0.05,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,1,3,3,F + E,0.2,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,1,1,4,F + M,0,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,1,2,4,F + M,0,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,1,3,4,F + M,0,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,1,1,5,F + E + M,0,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,1,2,5,F + E + M,0,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,1,3,5,F + E + M,0,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,FALSE,green,1,1,2,F,0.5,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,FALSE,green,1,2,2,F,0.5,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,FALSE,green,1,3,2,F,0.5,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,FALSE,green,1,1,3,F + E,0.5,80
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,FALSE,green,1,2,3,F + E,0.5,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,FALSE,green,1,3,3,F + E,0.45,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,TRUE,green,1,1,4,F + M,0.35,20
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,TRUE,green,1,2,4,F + M,0.1,40
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,TRUE,green,1,3,4,F + M,0.15,60
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,TRUE,green,1,1,5,F + E + M,0.1,40
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,TRUE,green,1,2,5,F + E + M,0.2,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,TRUE,green,1,3,5,F + E + M,0.15,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,2,1,2,F,0,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,2,2,2,F,0.2,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,2,3,2,F,0.1,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,2,1,3,F + E,0.1,20
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,2,2,3,F + E,0.1,40
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,2,3,3,F + E,0.15,40
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,2,1,4,F + M,0,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,2,2,4,F + M,0.05,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,2,3,4,F + M,0,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,2,1,5,F + E + M,0.05,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,2,2,5,F + E + M,0.05,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,green,2,3,5,F + E + M,0.05,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,FALSE,green,2,1,2,F,0.4,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,FALSE,green,2,2,2,F,0.45,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,FALSE,green,2,3,2,F,0.35,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,FALSE,green,2,1,3,F + E,0.7,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,FALSE,green,2,2,3,F + E,0.3,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,FALSE,green,2,3,3,F + E,0.4,100
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,TRUE,green,2,1,4,F + M,0.25,20
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,TRUE,green,2,2,4,F + M,0.15,20
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,TRUE,green,2,3,4,F + M,0.1,40
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,TRUE,green,2,1,5,F + E + M,0.1,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,TRUE,green,2,2,5,F + E + M,0.05,0
+NDSO_L_8-6,Pythium aphanidermatum,mefenoxam S: ethaboxam R,20,TRUE,TRUE,green,2,3,5,F + E + M,0.05,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,FALSE,brown,1,1,2,F,0.8,100
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,FALSE,brown,1,2,2,F,0.65,100
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,FALSE,brown,1,3,2,F,0.85,100
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,1,1,3,F + E,0.2,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,1,2,3,F + E,0.25,20
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,1,3,3,F + E,0.05,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,1,1,4,F + M,0,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,1,2,4,F + M,0.05,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,1,3,4,F + M,0,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,1,1,5,F + E + M,0,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,1,2,5,F + E + M,0,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,1,3,5,F + E + M,0,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,FALSE,brown,1,1,2,F,0.6,20
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,FALSE,brown,1,2,2,F,0.6,60
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,FALSE,brown,1,3,2,F,0.55,60
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,1,1,3,F + E,0.3,40
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,1,2,3,F + E,0.45,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,1,3,3,F + E,0.15,20
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,1,1,4,F + M,0.2,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,1,2,4,F + M,0.05,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,1,3,4,F + M,0,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,1,1,5,F + E + M,0.15,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,1,2,5,F + E + M,0,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,1,3,5,F + E + M,0.05,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,FALSE,brown,2,1,2,F,0.65,100
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,FALSE,brown,2,2,2,F,0.8,100
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,FALSE,brown,2,3,2,F,0.65,100
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,2,1,3,F + E,0.15,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,2,2,3,F + E,0.05,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,2,3,3,F + E,0.15,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,2,1,4,F + M,0.05,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,2,2,4,F + M,0.05,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,2,3,4,F + M,0.05,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,2,1,5,F + E + M,0,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,2,2,5,F + E + M,0.05,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,13,TRUE,TRUE,brown,2,3,5,F + E + M,0,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,FALSE,brown,2,1,2,F,0.55,80
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,FALSE,brown,2,2,2,F,0.65,80
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,FALSE,brown,2,3,2,F,0.45,100
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,2,1,3,F + E,0.15,20
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,2,2,3,F + E,0.05,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,2,3,3,F + E,0.15,20
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,2,1,4,F + M,0,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,2,2,4,F + M,0.05,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,2,3,4,F + M,0,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,2,1,5,F + E + M,0,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,2,2,5,F + E + M,0.05,0
+ILSO_1-31,Pythium irregulare,mefenoxam S: ethaboxam S,20,TRUE,TRUE,brown,2,3,5,F + E + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,1,1,2,F,0.05,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,1,2,2,F,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,1,3,2,F,0.05,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,1,1,3,F + E,0.15,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,1,2,3,F + E,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,1,3,3,F + E,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,1,1,4,F + M,0.05,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,1,2,4,F + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,1,3,4,F + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,1,1,5,F + E + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,1,2,5,F + E + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,1,3,5,F + E + M,0.05,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,1,1,2,F,0.1,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,1,2,2,F,0.15,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,1,3,2,F,0.15,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,1,1,3,F + E,0.15,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,1,2,3,F + E,0.2,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,1,3,3,F + E,0.25,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,1,1,4,F + M,0.05,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,1,2,4,F + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,1,3,4,F + M,0.15,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,1,1,5,F + E + M,0.05,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,1,2,5,F + E + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,1,3,5,F + E + M,0.15,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,2,1,2,F,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,2,2,2,F,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,2,3,2,F,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,2,1,3,F + E,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,2,2,3,F + E,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,2,3,3,F + E,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,2,1,4,F + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,2,2,4,F + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,2,3,4,F + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,2,1,5,F + E + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,2,2,5,F + E + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,13,FALSE,FALSE,blue,2,3,5,F + E + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,2,1,2,F,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,2,2,2,F,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,2,3,2,F,0.05,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,2,1,3,F + E,0.25,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,2,2,3,F + E,0.05,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,2,3,3,F + E,0.05,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,2,1,4,F + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,2,2,4,F + M,0.05,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,2,3,4,F + M,0.2,20
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,2,1,5,F + E + M,0.05,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,2,2,5,F + E + M,0,0
+C-NESO2_6-5,Pythium rostratifingens,mefenoxam S: ethaboxam R,20,FALSE,FALSE,blue,2,3,5,F + E + M,0.05,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,FALSE,aqua,1,1,2,F,0.8,100
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,FALSE,aqua,1,2,2,F,0.55,100
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,FALSE,aqua,1,3,2,F,0.2,40
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,1,1,3,F + E,0.05,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,1,2,3,F + E,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,1,3,3,F + E,0.05,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,1,1,4,F + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,1,2,4,F + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,1,3,4,F + M,0.05,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,1,1,5,F + E + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,1,2,5,F + E + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,1,3,5,F + E + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,FALSE,aqua,1,1,2,F,0.6,100
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,FALSE,aqua,1,2,2,F,0.65,80
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,FALSE,aqua,1,3,2,F,0.5,80
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,1,1,3,F + E,0.1,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,1,2,3,F + E,0.1,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,1,3,3,F + E,0.1,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,1,1,4,F + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,1,2,4,F + M,0.1,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,1,3,4,F + M,0.05,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,1,1,5,F + E + M,0.1,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,1,2,5,F + E + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,1,3,5,F + E + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,FALSE,aqua,2,1,2,F,0.35,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,FALSE,aqua,2,2,2,F,0.15,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,2,3,2,F,0.1,40
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,2,1,3,F + E,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,2,2,3,F + E,0.05,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,2,3,3,F + E,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,2,1,4,F + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,2,2,4,F + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,2,3,4,F + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,2,1,5,F + E + M,0.05,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,aqua,2,2,5,F + E + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,13,TRUE,FALSE,aqua,2,3,5,F + E + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,FALSE,aqua,2,1,2,F,0.35,80
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,FALSE,aqua,2,2,2,F,0.55,60
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,FALSE,aqua,2,3,2,F,0.45,80
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,2,1,3,F + E,0.05,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,2,2,3,F + E,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,2,3,3,F + E,0.1,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,2,1,4,F + M,0.05,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,2,2,4,F + M,0.1,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,2,3,4,F + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,2,1,5,F + E + M,0,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,2,2,5,F + E + M,0.1,0
+NESO_2-13,Pythium sylvaticum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,aqua,2,3,5,F + E + M,0.1,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,1,1,2,F,0.1,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,1,2,2,F,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,1,3,2,F,0.05,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,1,1,3,F + E,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,1,2,3,F + E,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,1,3,3,F + E,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,1,1,4,F + M,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,1,2,4,F + M,0.1,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,1,3,4,F + M,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,1,1,5,F + E + M,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,1,2,5,F + E + M,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,1,3,5,F + E + M,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,1,1,2,F,0.15,40
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,1,2,2,F,0.15,60
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,1,3,2,F,0.15,40
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,1,1,3,F + E,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,1,2,3,F + E,0.05,40
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,1,3,3,F + E,0.05,60
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,1,1,4,F + M,0.05,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,1,2,4,F + M,0.2,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,1,3,4,F + M,0.15,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,1,1,5,F + E + M,0.1,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,1,2,5,F + E + M,0.05,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,1,3,5,F + E + M,0.1,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,2,1,2,F,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,2,2,2,F,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,2,3,2,F,0.05,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,2,1,3,F + E,0.1,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,2,2,3,F + E,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,2,3,3,F + E,0.05,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,2,1,4,F + M,0.05,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,2,2,4,F + M,0.05,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,2,3,4,F + M,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,2,1,5,F + E + M,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,2,2,5,F + E + M,0.05,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,13,FALSE,FALSE,purple,2,3,5,F + E + M,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,2,1,2,F,0.15,20
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,2,2,2,F,0.15,20
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,2,3,2,F,0.2,80
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,2,1,3,F + E,0.15,40
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,2,2,3,F + E,0.05,60
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,2,3,3,F + E,0.1,40
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,2,1,4,F + M,0.2,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,2,2,4,F + M,0,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,2,3,4,F + M,0.1,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,2,1,5,F + E + M,0.1,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,2,2,5,F + E + M,0.1,0
+MISO_8-29.1,Pythium torulosum,mefenoxam S: ethaboxam R,20,FALSE,FALSE,purple,2,3,5,F + E + M,0.05,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,FALSE,red,1,1,2,F,0.7,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,FALSE,red,1,2,2,F,0.6,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,FALSE,red,1,3,2,F,0.6,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,TRUE,red,1,1,3,F + E,0,20
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,TRUE,red,1,2,3,F + E,0.15,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,TRUE,red,1,3,3,F + E,0.1,40
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,FALSE,red,1,1,4,F + M,0.6,60
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,FALSE,red,1,2,4,F + M,0.9,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,FALSE,red,1,3,4,F + M,0.65,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,TRUE,red,1,1,5,F + E + M,0.05,40
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,TRUE,red,1,2,5,F + E + M,0.25,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,TRUE,red,1,3,5,F + E + M,0.1,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,FALSE,red,1,1,2,F,0.35,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,FALSE,red,1,2,2,F,0.45,80
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,FALSE,red,1,3,2,F,0.4,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,TRUE,red,1,1,3,F + E,0.1,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,TRUE,red,1,2,3,F + E,0.1,20
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,TRUE,red,1,3,3,F + E,0.2,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,FALSE,red,1,1,4,F + M,0.25,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,FALSE,red,1,2,4,F + M,0.35,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,FALSE,red,1,3,4,F + M,0.3,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,TRUE,red,1,1,5,F + E + M,0.2,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,TRUE,red,1,2,5,F + E + M,0,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,TRUE,red,1,3,5,F + E + M,0.25,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,FALSE,red,2,1,2,F,0.75,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,FALSE,red,2,2,2,F,0.65,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,FALSE,red,2,3,2,F,0,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,TRUE,red,2,1,3,F + E,0.1,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,TRUE,red,2,2,3,F + E,0.05,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,TRUE,red,2,3,3,F + E,0.25,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,FALSE,red,2,1,4,F + M,0.35,60
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,FALSE,red,2,2,4,F + M,0.35,40
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,FALSE,red,2,3,4,F + M,0.6,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,TRUE,red,2,1,5,F + E + M,0.1,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,TRUE,red,2,2,5,F + E + M,0.3,20
+1.18A,Positive Control,mefenoxam R: ethaboxam S,13,TRUE,TRUE,red,2,3,5,F + E + M,0.1,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,FALSE,red,2,1,2,F,0.1,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,FALSE,red,2,2,2,F,0.3,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,FALSE,red,2,3,2,F,0.35,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,TRUE,red,2,1,3,F + E,0.3,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,TRUE,red,2,2,3,F + E,0.05,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,TRUE,red,2,3,3,F + E,0.25,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,FALSE,red,2,1,4,F + M,0.25,60
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,FALSE,red,2,2,4,F + M,0.45,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,FALSE,red,2,3,4,F + M,0.15,100
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,TRUE,red,2,1,5,F + E + M,0.15,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,TRUE,red,2,2,5,F + E + M,0.1,0
+1.18A,Positive Control,mefenoxam R: ethaboxam S,20,TRUE,TRUE,red,2,3,5,F + E + M,0.05,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,FALSE,orange,1,1,2,F,0.9,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,FALSE,orange,1,2,2,F,0.9,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,FALSE,orange,1,3,2,F,0.6,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,1,1,3,F + E,0.35,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,1,2,3,F + E,0.35,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,1,3,3,F + E,0.35,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,1,1,4,F + M,0.05,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,1,2,4,F + M,0,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,1,3,4,F + M,0.05,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,1,1,5,F + E + M,0,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,1,2,5,F + E + M,0,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,1,3,5,F + E + M,0,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,FALSE,orange,1,1,2,F,0.9,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,FALSE,orange,1,2,2,F,0.8,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,FALSE,orange,1,3,2,F,0.75,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,1,1,3,F + E,0.5,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,1,2,3,F + E,0.6,80
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,1,3,3,F + E,0.5,80
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,1,1,4,F + M,0.65,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,1,2,4,F + M,0.6,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,1,3,4,F + M,0.5,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,1,1,5,F + E + M,0.4,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,1,2,5,F + E + M,0.5,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,1,3,5,F + E + M,0.35,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,FALSE,orange,2,1,2,F,0.95,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,FALSE,orange,2,2,2,F,0.9,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,FALSE,orange,2,3,2,F,0.65,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,2,1,3,F + E,0.15,40
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,2,2,3,F + E,0.15,60
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,2,3,3,F + E,0.3,60
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,2,1,4,F + M,0,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,2,2,4,F + M,0.1,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,2,3,4,F + M,0.05,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,2,1,5,F + E + M,0.05,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,2,2,5,F + E + M,0,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,13,TRUE,TRUE,orange,2,3,5,F + E + M,0.05,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,FALSE,orange,2,1,2,F,0.75,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,FALSE,orange,2,2,2,F,0.7,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,FALSE,orange,2,3,2,F,0.7,100
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,2,1,3,F + E,0.45,40
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,2,2,3,F + E,0.35,20
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,2,3,3,F + E,0.5,40
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,2,1,4,F + M,0.05,20
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,2,2,4,F + M,0.15,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,2,3,4,F + M,0.2,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,2,1,5,F + E + M,0.1,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,2,2,5,F + E + M,0.05,0
+KSSO_5-45,Pythium ultimum var. ultimum,mefenoxam S: ethaboxam S,20,TRUE,TRUE,orange,2,3,5,F + E + M,0.15,0

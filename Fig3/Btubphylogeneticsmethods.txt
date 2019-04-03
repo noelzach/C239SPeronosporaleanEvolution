@@ -1,0 +1,40 @@
+Methods for btub phylogenetics 042018
+
+Sequences were aligned with MUSCLE and translated to ensure correct reading frame was established. 
+Begining and ends of alignment was trimmed. Final alignment, in the correct reading rame included 858 characters
+Therefore the first 273 (91aa) nucleotides were trimmed and the last 210 (70aa) nucleotides were trimmed from the end. 
+Therefore this included the following region of oomycete Btub gene... 
+from 273 to 1131 (92aa to 377aa)
+Terminal gaps were treated as missing data
+The final alignment included 46 taxa treating saprolegnia as an outgroup and 858 characters coresponding to the 273 (92aa) to 1131 bp (377aa) region of the 1341 bp coding sequence of btub gene
+
+Mr. Bayes was run with the following block: 
+begin mrbayes;
+	outgroup Saprolegnia_parasitica_NTF5B_16;
+	set autoclose=yes nowarn=yes;  
+	charset codonPos1 =  1 - 858\3;
+	charset codonPos2 =  2 - 858\3;
+	charset codonPos3 =  3 - 858\3;
+	partition currentPartition = 3: codonPos1, codonPos2, codonPos3;
+	set partition = currentPartition;
+	lset applyto=(1, 2, 3);
+	lset nst=6 rates=invgamma;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all); 
+	prset applyto=(all) ratepr=variable;
+	mcmcp ngen= 1000000 relburnin=yes burninfrac=0.25 printfreq=100  samplefreq=100 nchains=8 savebrlens=yes;
+	mcmc;
+	sumt Contype=Allcompat;
+end;
+
+this means that we set Saprolegnia parasitica as an outgroup 
+Treated each codon position as a separate partition to allow separate evolutionary models/rates for each codon position 
+Model was GTR+I+G 
+run with 5 million generations and 25% burnin sampling every 1000 trees with 8 mcmc chains 
+
+Bayesian runs were assesed in Tracer and the average deviation of split frequencies before continuing. 
+
+Ancestral sequence reconstruction was conducted in a separate analysis with the same model except with 1 million generations and trees sampled every 100 generations with 4 chains. 
+
+
+Visualization = beta tubulin gene tree with ancestral states represented as a weblogo and blocks with info about EC50, genotype and pvalue associated with a Z test of the EC50 relative to the distribution of cystine containing EC50s. 
+

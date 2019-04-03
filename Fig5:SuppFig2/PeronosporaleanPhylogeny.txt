@@ -1,0 +1,9 @@
+#align using mafft with FFT-NS-2 algorithm
+/usr/local/bin/mafft  --retree 2 --inputorder Peronosporalean_betatubulin.fasta > Peronosporalean_betatubulin_MAFFT.fasta
+
+# Then use FastTree to make an approximate maximum likelihood tree with GTR model
+FastTree -gtr -nt Peronosporalean_betatubulin_MAFFT.fasta > Peronosporalean_betatubulin_MAFFT_FastTree.newick
+
+Log-Likelihood -39829.442
+
+# upload to Itol then drag and drop labels.txt. 

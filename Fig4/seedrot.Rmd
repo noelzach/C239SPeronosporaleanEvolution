@@ -1,0 +1,214 @@
+---
+title: "SeedRotAssay"
+author: "Zachary Noel"
+date: "5/24/2018"
+output:
+  md_document:
+    variant: markdown_github
+  html_document: default
+---
+
+```{r}
+# ipak function: install and load multiple R packages.
+# check to see if packages are installed. Install them if they are not, then load them into the R session.
+# Source: https://gist.github.com/stevenworthington/3178163
+ipak <- function(pkg){
+new.pkg <- pkg[!(pkg %in% installed.packages()[,"Package"])]
+if (length(new.pkg)) 
+    install.packages(new.pkg, dependencies = TRUE)
+sapply(pkg, require, character.only = TRUE)
+}
+```
+
+```{r, results="hide", echo=FALSE}
+packages <- c("drc", "lme4", "lsmeans", "plyr", "plotrix", "knitr", "ggplot2", "lmtest", "lmerTest", "Rmisc", "gridExtra", "plotly", "webshot", "ggpmisc", "multcompView", "ggsci", "AER", "multcomp", "ggpubr", "ggsci", "cowplot", "emmeans", "lme4")
+ipak(packages)
+```
+
+```{r}
+seedrot <- read.csv("seedinfectionassay_clean.csv") #%DI data 
+```
+
+Analysing the DSI ratings:
+
+With temperature in the linear model
+```{r}
+seedrot$treatment_name <- ordered(seedrot$treatment_name, levels = c("F", "F + E", "F + M", "F + E + M"))
+seedrot$DI <- 100*(seedrot$DI)
+
+mod_DI <- lm(DI ~ treatment_name*isolate*as.factor(temperature), data = seedrot)
+#plot(mod.13)
+anova(mod_DI)
+
+mod1_DI <- lmer(DI ~ treatment_name*isolate*as.factor(temperature) + (1|biorep), data = seedrot)
+plot(mod1_DI)
+anova(mod1_DI)
+
+AIC(mod_DI)
+AIC(mod1_DI) # the AIC is less, go with mod1 
+```
+
+Significnt interaction was noticed, so we will look at the differences within groups of treatment and isolate
+First we have to decide which isolates are good colonizers
+```{r}
+lsmeans_CvsA_DI <- emmeans(mod1_DI, ~isolate|treatment_name|temperature) # estimate lsmeans of isolates and compare them to the control to see which were pathogenic
+
+# testing which isolate causes disease on fludioxonil signifincalty more than the control
+# if they cause disease significanlty better than the control on fludioxonil treated seed 
+# this defines which are pathogenic
+CvsA_mod1_DI <- emmeans::contrast(lsmeans_CvsA_DI, "trt.vs.ctrl", ref = 3, adjust = "tuk")
+# shows contrasts - in this case we really only care about the F treatment in 13 and 20ºC
+CvsA_mod1_DI
+
+lsmeans_treatment_DI <- emmeans(mod1_DI, ~treatment_name|isolate|temperature) # estimate lsmeans of isolates and compare them within isolate which treatments worked the best
+
+treatment_mod1_DI <- emmeans::contrast(lsmeans_treatment_DI, "trt.vs.ctrl", ref = 1, adjust = "tuk") # testing the effect of each treatment within each isolate 
+# shows contrasts 
+treatment_mod1_DI
+```
+
+```{r}
+#Summarizing data using different parameters by plyr library
+seed_sum <- ddply(seedrot, c("isolate", "species", "treatment_name", "temperature"), summarise,
+              N_DI = length(DI),
+              mean_DI = mean(DI), 
+              sd_DI = sd(DI),
+              se_DI = sd_DI/sqrt(N_DI),
+              N_seedcol = length(percent_col),
+              mean_seedcol = mean(percent_col), 
+              sd_seedcol = sd(percent_col),
+              se_seedcol = sd(percent_col)/sqrt(N_seedcol)
+)
+kable(seed_sum)
+#write.csv(seed_sum, "seedrot_mean.csv")
+```
+
+```{r}
+colnames(seed_sum)
+seed_sum.r <- reshape::melt(seed_sum, c("isolate","species","treatment_name","temperature"))
+seed_sum.r <- rbind.data.frame(seed_sum.r[seed_sum.r$variable == "mean_seedcol",], seed_sum.r[seed_sum.r$variable == "mean_DI",])
+seed_sum.r$treatment <- rep(c(2,2,3,3,4,4,5,5), 16)
+
+p1 <- ggplot(seed_sum.r[seed_sum.r$temperature == "20",], aes(x = reorder(species, -value), y = treatment, size = value, color = variable)) + 
+  coord_flip() +
+  geom_point(stat = "identity", position = position_dodge(width = 0.8)) +
+  scale_size_continuous(name = "Percentage",
+                          limits = c(0, 100),
+                          breaks = c(0, 25, 50, 75,100),
+                          range = c(0, 10) ) +
+  scale_y_discrete(limit = c(2,3,4,5),
+                     labels = c("F", "F + E", "F + M", "F + E + M")) +
+  theme_classic() + 
+  scale_color_npg(labels = c("Mean DSI", "Mean Percent Seed \n Colonized Seed")) + 
+  theme(axis.text.x = element_text(size = 15, face = "bold", family = "serif", angle = 90, hjust = 1),
+          axis.text.y = element_text(size = 10, face = "bold", family = "serif", angle = 25, hjust = 1),
+          axis.title.x = element_text(size = 0, face = "bold", family = "serif"),
+          axis.title.y = element_text(size = 0, face = "bold", family = "serif"),
+          axis.line.x = element_line(colour = 'black', size=0.5, linetype='solid'),
+          axis.line.y = element_line(colour = 'black', size=0.5, linetype='solid'),
+          legend.text = element_text(size = 10, face = "bold", family = "serif"),
+          legend.key = element_blank(),
+          legend.title = element_text(size = 10, face="bold", family = "serif"),
+          legend.position = "right",
+          strip.text.x = element_text(size = 25, face = "bold", family = "serif"),
+        title = element_text(size = 16, family = "serif")) +
+  labs(title = "20ºC", list(x = "Species",  
+            y = "Treatment")) 
+p2 <- ggplot(seed_sum.r[seed_sum.r$temperature == "13",], aes(x = reorder(species, -value), y = treatment, size = value, color = variable)) + 
+  coord_flip() +
+  geom_point(stat = "identity", position = position_dodge(width = 0.9)) +
+  scale_size_continuous(name = "Percentage",
+                          limits = c(0, 100),
+                          breaks = c(0, 25, 50, 75,100),
+                          range = c(0, 10) ) +
+  scale_y_discrete(limit = c(2,3,4,5),
+                     labels = c("F", "F + E", "F + M", "F + E + M")) +
+  theme_classic() +
+  scale_color_npg(labels = c("Predicted Probability \n Colonization", "DSI")) + 
+  theme(axis.text.x = element_text(size = 15, face = "bold", family = "serif", angle = 90, hjust = 1),
+          axis.text.y = element_text(size = 10, face = "bold", family = "serif", angle = 25, hjust = 1),
+          axis.title.x = element_text(size = 0, face = "bold", family = "serif"),
+          axis.title.y = element_text(size = 0, face = "bold", family = "serif"),
+          axis.line.x = element_line(colour = 'black', size=0.5, linetype='solid'),
+          axis.line.y = element_line(colour = 'black', size=0.5, linetype='solid'),
+          legend.key = element_blank(),
+          strip.text.x = element_text(size = 25, face = "bold", family = "serif"),
+        title = element_text(size = 16, family = "serif")) +
+  labs(title = "13ºC", list(x = "Species",  
+            y = "Treatment")) 
+
+plot_grid(p1, p2, labels = c("A", "B"), align = "h")
+```
+
+```{r}
+seedrot$treatment_name <- ordered(seedrot$treatment_name, levels = c("NTC", "F", "F + E", "F + M", "F + E + M"))
+colors <- pal_npg("nrc")(9)
+
+ggplot(seedrot, aes(x = reorder(treatment_name, DI), y = DI, color = as.factor(temperature), shape = diff_F)) +
+  #geom_boxplot(aes(fill = as.factor(temperature))) +
+  #geom_jitter(aes(color = as.factor(temperature))) +
+  stat_summary(fun.data = mean_se, geom = "errorbar", size = 1, width = 0.2) +
+  stat_summary(fun.y = mean, geom = "point", size = 3) + 
+  #stat_compare_means(method = "anova", label.y = 60, size = 10)+ # Add global p-value
+  #stat_compare_means(aes(label = ..p.signif..),
+   #               method = "t.test", ref.group = "Control", label.y = 70,size = 10, hide.ns = TRUE) +
+  theme_bw() +
+  xlab("Isolate") + 
+  ylab("% DSI") + 
+  scale_shape_manual(values = c(19, 21)) +
+  scale_colour_manual(values=c(colors[2], colors[1])) +
+  scale_y_continuous(limits = c(0, 100), breaks = seq(from = 0, to = 100, by = 10)) +
+  coord_cartesian(ylim=c(0, 100)) +
+  facet_wrap(~isolate) +
+  #annotate("text", x = 5, y = 100, label = "20ºC", size = 10) + 
+  theme(axis.text.x = element_text(size = 20, face = "bold", family = "serif", angle = 45, hjust = 1),
+          axis.text.y = element_text(size = 20, face = "bold", family = "serif"),
+          axis.title.x = element_text(size = 25, face = "bold", family = "serif"),
+          axis.title.y = element_text(size = 25, face = "bold", family = "serif"),
+          axis.line.x = element_line(colour = 'black', size=0.5, linetype='solid'),
+          axis.line.y = element_line(colour = 'black', size=0.5, linetype='solid'),
+          legend.text = element_text(size = 10, face = "bold", family = "serif"),
+          legend.key = element_blank(),
+          legend.title = element_text(size = 10, face="bold", family = "serif"),
+          legend.position = "right", 
+          strip.text.x = element_text(size = 25, face = "bold", family = "serif"),
+        title = element_text(size = 16, family = "serif")) 
+```
+
+this is all really interesting, however for the manuscript I am just going to provide information on one C239 and one S239 isolate for confirmation purposes and to avoid confusion
+```{r}
+isolates <- c("NDSO_L_8-6", "ILSO_1-31")
+treatments <- c("F", "F + E")
+seedrot.sub <- seedrot[seedrot$isolate %in% isolates & seedrot$treatment_name %in% treatments,] %>%
+    subset(temperature == 20)
+seedrot.sub$isolate <- factor(seedrot.sub$isolate)
+levels(seedrot.sub$isolate)<- c("C239", "S239")
+
+# Percent DSI - Figure in manuscript
+ggplot(seedrot.sub, aes(x = treatment_name, y = DI)) + 
+  stat_summary(fun.y = mean, geom = "bar", size = 3) + 
+  stat_summary(fun.data = mean_se, geom = "errorbar", size = 1, width = 0.2) +
+  facet_wrap(~isolate) + 
+    xlab("") + 
+    ylab("% DSI") +
+   stat_compare_means(method = "t.test")
+
+# Percent colonized seed   
+ggplot(seedrot.sub, aes(x = treatment_name, y = percent_col)) + 
+  stat_summary(fun.y = mean, geom = "bar", size = 3) + 
+  stat_summary(fun.data = mean_se, geom = "errorbar", size = 1, width = 0.2) +
+  facet_wrap(~isolate) + 
+    xlab("") + 
+    ylab("% Colonization") +
+   stat_compare_means(method = "t.test")
+  
+```
+
+
+
+
+
+
+
+
+

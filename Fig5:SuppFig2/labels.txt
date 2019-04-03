@@ -1,0 +1,206 @@
+DATASET_TEXT
+#In text datasets, each ID is associated to text label, which can be displayed directly on the node branch, or outside the tree
+#lines starting with a hash are comments and ignored during parsing
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL,Collapsed Node Labels
+
+#dataset color (can be changed later)
+COLOR,#070707
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap. Used only for text labels which are displayed on the outside
+MARGIN,0
+
+#applies to external text labels only; if set, text labels associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+SHOW_INTERNAL,0
+
+#Rotate all labels by the specified angle
+LABEL_ROTATION,0
+
+#If set to 1, tree rotation will not influence the individual label rotation
+STRAIGHT_LABELS,0
+
+#applies to external text labels only; If set to 1, labels will be displayed in arcs aligned to the tree (in circular mode) or vertically (in normal mode). All rotation parameters (global or individual) will be ignored.
+ALIGN_TO_TREE,0
+
+#font size factor; For external text labels, default font size will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)
+SIZE_FACTOR,1
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+#the following fields are possible for each node:
+#ID,label,position,color,style,size_factor,rotation
+
+#position defines the position of the text label on the tree:
+#  -1 = external label
+#  a number between 0 and 1 = internal label positioned at the specified value along the node branch (for example, position 0 is exactly at the start of node branch, position 0.5 is in the middle, and position 1 is at the end)
+#style can be 'normal',''bold','italic' or 'bold-italic'
+#size factor will be multiplied with the standard font size
+
+DATA
+#Examples
+
+#nodes to label
+Peronospora_effusa_MF687223_1|Peronospora_potentillae-sterilis_MG_14-6_DQ361125_1,(27) Peronospora,-1,#070707,bold,2,0
+Plasmopara_viticola_PVS0106_HE582072_1|Plasmopara_halstedii_,(10) Plasmopara,-1,#070707,bold,2,0
+Pseudoperonospora_humuli_HV_129_DQ361162_1|Pseudoperonospora_urticae_HV_713_DQ361163_1,(5) Pseudoperonospora,-1,#070707,bold,2,0
+
+Nothophytophthora_valdiviana_CL332_KY788548_1|Nothophytophthora_caduca_CL334_KY788533_1,(6) Nothophytophthora,-1,#070707,bold,2,0
+Pythium_nodosum_CBS_102274_KJ595531_1|Pythium_sp__CAL-2011f_CBS_101876_KJ595530_1,(12) Pythium Clade J,-1,#070707,bold,2,0
+Pythium_intermedium_CBS_266_38_AB512836_1|Pythium_irregulare_ILSO_1-31,(32) Pythium Clade F,-1,#070707,bold,2,0
+Lagenidium_sp__LM-2012b_CO3-BS40_JX999141_1|Lagenidium_sp__'albertoi'_MTLA-13_JX999142_1,(15) Lagenidium,-1,#070707,bold,2,0
+Pythium_anandrum_CBS_285_31_KJ595450_1|Pythium_helicandrum_CBS_393_54_KJ595453_1,(6) Pythium Clade H,-1,#070707,bold,2,0
+Pythium_lycopersicum_CBS_122909_KJ595554_1|Pythium_acanthicum_CBS_377_34_KJ595504_1,(7) Pythium Clade D,-1,#070707,bold,2,0
+Pythium_diclinum_CBS_664_79_KJ595518_1|Pythium_apleroticum_CBS_772_81_KJ595524_1,(11) Pythium Clade B2,-1,#070707,bold,2,0
+Pythium_minus_MNSO_2-36_|Pythium_multisporum_CBS_470_50_KJ595455_1,(8) Pythium Clade E2,-1,#070707,bold,2,0
+Phytophthora_kernoviae_PD_00105_B-tub|Phytophthora_kernoviae_PD_00105_B-tub,(2) Phytophthora Clade 10,-1,#070707,bold,2,0
+Phytophthora_quininea_PD_00126_B-tub|Phytophthora_insolita_PD_00175_B-tub_2,(9) Phytophthora Clade 9,-1,#070707,bold,2,0
+Phytophthora_asparagi_PD_00045_B-tub|Phytophthora_inundata_PD_00145_B-tub,(7) Phytophthora Clade 6,-1,#070707,bold,2,0
+Phytophthora_cinnamomi_PD_00188|Phytophthora_richardiae_PD_00119_B-tub,(19) Phytophthora Clade 7,-1,#070707,bold,2,0
+Phytophthora_hibernalis_PD_00062_B-tub|Phytophthora_syringae_PD_00013_B-tub,(7) Phytophthora Clade 8C-D,-1,#070707,bold,2,0
+Phytophthora_sp__kelmania_PD_00100_B-tub|Phytophthora_sansomeana_PD_01115_B-tub,(14) Phytophthora Clade 8A,-1,#070707,bold,2,0 
+Phytophthora_pseudosyringae_PD_00093_B-tub|Phytophthora_psychrophila_PD_00039_B-tub,(4) Phytophthora Clade 3,-1,#070707,bold,2,0 
+Phytophthora_idaei_PD_00177_B-tub|Phytophthora_infestans_PD_00101_B-tub,(15) Phytophthora Clade 1,-1,#070707,bold,2,0
+Paralagenidium_sp__C09-TL95_KT257505_1|Paralagenidium_karlingii_C13-RC48_KT257520_1,(5) Paralagenidium,-1,#070707,bold,2,0
+Pythium_heterothallicum_MISO_5-19H_1|Pythium_glomeratum_CBS_122644_KJ595548_1,(4) Pythium Clade I (Py. heterothallicum & Py. glomeratum),-1,#070707,bold,2,0
+Pythium_ultimum_var__ultimum_KSSO_4-54|Pythium_solare_CBS_119359_KJ595546_1,(6) Pythium Clade I (Py. ultimum & Py. splendens & Py. solare),-1,#070707,bold,2,0
+
+Pythium_vexans_CBS_119_80_EF426556_1|Pythium_vexans_PD_00391,(4) Phytopythium (Phytopythium vexans and Phytopythium cucurbitacearum),-1,#070707,bold,2,0
+Pythium_myriotylum_O_14-1|Pythium_dissimile_CBS_155_64_KJ595475_1,(8) Pythium Clade B1c/b,-1,#070707,bold,2,0
+Phytophthora_heveae_PD_00073_B-tub|Phytophthora_katsurae_PD_00074_B-tub,(3) Phytophthora Clade 5,-1,#070707,bold,2,0
+Phytophthora_palmivora_PD_00022_B-tub|Phytophthora_quercetorum_PD_01105_B-tub,(4) Phytophthora Clade 4,-1,#070707,bold,2,0
+Phytophthora_bisheria_PD_00051_B-tub|Phytophthora_capsici_PD_00118,(24) Phytophthora Clade 2,-1,#070707,bold,2,0
+Phytophthora_pseudosyringae_PD_00093_B-tub|Phytophthora_quercetorum_PD_01105_B-tub,(50) Phytophthora Clades 1-5,-1,#070707,bold,2,0
+Phytophthora_quininea_PD_00126_B-tub|Phytophthora_boehmeriae_PD_00181_B-tub,(9) Phytophthora Clades 9-10,-1,#070707,bold,2,0
+Perofascia_lepidii_MG_27-11_DQ361114_1|Hyaloperonospora_lunariae_MG_34-6_DQ361108_1, (6) Hyaloperonospora (2) Perofascia,-1,#070707,bold,2,0
+Pseudoperonospora_urticae_HV_713_DQ361163_1|Bremia_sonchicola_MF687229_1, (5) Pseudoperonospora (2) Peronosclerospora (1) Sclerospora (10) Plasmopara (2) Bremia (2) Albugo (1) Plasmoverna,-1,#070707,bold,2,0
+Pythium_irregulare_ILSO_1-31|Pythium_helicandrum_CBS_393_54_KJ595453_1,(48) Pythium clades F-I-H (16) Lagenidium (5) Paralagenidium,-1,#070707,bold,2,0
+Halophytophthora_fluviatilis_57A9|Halophytophthora_polymorphica_CBS_680_84_KY788514_1,(5) Halophytophthora,-1,#070707,bold,2,0
+Halophytophthora_fluviatilis_57A9|Halophytophthora_polymorphica_CBS_680_84_KY788514_1,(5) Halophytophthora,-1,#070707,bold,2,0
+Pythium_carolinianum_V-NDSO2_3-54|Pythium_carolinianum_CBS_122659_KJ595551_1,(3) Pythium carolinianum,-1,#070707,bold,2,0
+Pythium_nagaii_C-NDSO2_6-1_1|Pythium_nagaii_CBS_779_96_KJ595526_1,(2) Pythium nagaii,-1,#070707,bold,2,0
+Pythium_angustatum_V-ARSO2_3-46|Pythium_angustatum_CBS_522_74_KJ595511_1,(2) Pythium angustatum,-1,#070707,bold,2,0
+Pythium_aphanidermatum_ILSO_6-15C|Pythium_aphanidermatum_NDSO_L_8-6,(2) Pythium aphanidermatum,-1,#070707,bold,2,0
+Pythium_deliense_CBS_314_33_KJ595497_1|Pythium_deliense_MBL39,(2) Pythium deliense,-1,#070707,bold,2,0
+Lagenidium_sp__SLG-2014a_LEV_6423_KJ595565_1_2|Lagenidium_sp__SLG-2014b_LEV_6562_KJ595566_1_1,(3) Lagenidium sp.,-1,#070707,bold,2,0
+Pythium_monospermum_C-INSO2_2-15|Pythium_monospermum_CBS_158_73_KJ595478_1,(2) Pythium monospermum,-1,#070707,bold,2,0
+Pythium_adhaerens_NDSO_L_10-7|Pythium_adhaerens_CBS_520_74_KJ595510_1,(2) Pythium adhaerens,-1,#070707,bold,2,0
+Pythium_torulosum_CBS_316_33_KJ595499_1|Pythium_torulosum_MISO_8-29_1,(2) Pythium torulosum,-1,#070707,bold,2,0
+Phytopythium_litorale_C-KSSO2_1-25|Phytopythium_helicoides_CBS_286_31TA1_AB511994_1_1,(15) Phytopythium,-1,#070707,bold,2,0
+Pythium_insidiosumDNAcontig_Pi-s_genome_allele2_BBXB01000334_1|Pythium_insidiosum_CBS_574_85_KJ595515_1,(3) Pythium insidiosum,-1,#070707,bold,2,0
+Saprolegnia_parasitica_NTF5B-16|Saprolegnia_megasperma_FSU2551_AY944861_1,(2) Saprolegnia,-1,#070707,bold,2,0
+Pythium_myriotylum_O_14-1|Pythium_myriotylum_CBS_254_70_KJ595490_1,(2) Pythium myriotylum,-1,#070707,bold,2,0
+Salilagenidium_myophilum_KT257480_1|Pythium_capillosum_CBS_222_94_KJ595485_1, (3) Pythium Clade B2 (2) Lagenidium,-1,#070707,bold,2,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Phytopythium_litorale_C-KSSO2_1-25|Phytopythium_chamaehyphon_CBS_259_30_KJ595448_1_1,Phytopythium,-1,#070707,bold,2,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

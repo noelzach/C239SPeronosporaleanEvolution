@@ -1,0 +1,96 @@
+DATASET_SYMBOL
+#Symbol datasets allow the display of various symbols on the branches of the tree. For each node, one or more symbols can be defined.
+#Each symbol's color, size and position along the branch can be specified.
+
+#lines starting with a hash are comments and ignored during parsing
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL,Reduced Sensitivity
+
+#dataset color (can be changed later)
+COLOR,#ffff00
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#each dataset can have a legend, which is defined below
+#for each row in the legend, there should be one shape, color and label
+#shape should be a number between 1 and 6:
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#LEGEND_TITLE,Dataset legend
+#LEGEND_SHAPES,1,2,3
+#LEGEND_COLORS,#ff0000,#00ff00,#0000ff
+#LEGEND_LABELS,value1,value2,value3
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#largest symbol will be displayed with this size, others will be proportionally smaller.
+MAXIMUM_SIZE,4
+
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+#the following fields are required for each node:
+#ID,symbol,size,color,fill,position,label
+#symbol should be a number between 1 and 5:
+#1: rectangle
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#size can be any number. Maximum size in the dataset will be displayed using MAXIMUM_SIZE, while others will be proportionally smaller
+#color can be in hexadecimal, RGB or RGBA notation. If RGB or RGBA are used, dataset SEPARATOR cannot be comma.
+#fill can be 1 or 0. If set to 0, only the outline of the symbol will be displayed.
+#position is a number between 0 and 1 and defines the position of the symbol on the branch (for example, position 0 is exactly at the start of node branch, position 0.5 is in the middle, and position 1 is at the end)
+
+DATA
+#Examples
+
+#node will have a blue star outline at the start of the branch
+#Clade A
+Pythium_deliense_MBL39,3,1,#070707,1,1.1
+Pythium_aphanidermatum_NDSO_L_8-6,3,1,#070707,1,1.1
+Pythium_aphanidermatum_ILSO_6-15C,3,1,#070707,1,1.1
+
+#Clade B
+Pythium_catenulatum_NDSO_L_10-10,3,1,#070707,1,1.1
+Pythium_catenulatum_C-ARSO2_5-12,3,1,#070707,1,1.1
+Pythium_torulosum_MISO_8-29_1,3,1,#070707,1,1.1
+Pythium_folliculosum_CBS_220_94,3,1,#070707,1,1.1
+
+
+#Clade_E
+Pythium_longisporangium_ILSO_2-19B,3,1,#070707,1,1.1
+Pythium_selbyi_CBS_129728_KJ595471_1,3,1,#070707,1,1.1
+Pythium_longandrum_C-KSSO2_5-20,3,1,#070707,1,1.1
+Pythium_rostratifingens_C-NESO2_6-5,3,1,#070707,1,1.1
+Pythium_acrogynum_C-MISO2_1-11,3,1,#070707,1,1.1
+Pythium_carolinianum_C-NDSO2_3-2,3,1,#070707,1,1.1
+Pythium_carolinianum_V-NDSO2_3-54,3,1,#070707,1,1.1
+
+Pythium_radiosum_CBS_217_94,3,1,#070707,1,1.1
+Pythium_ornacarpum_CBS_112350_KJ595535_1,3,1,#070707,1,1.1
+
+
+
