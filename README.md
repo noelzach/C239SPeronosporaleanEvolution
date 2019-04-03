@@ -11,7 +11,7 @@ Data associated with this project are either phylogeny files or data analysis fi
 * Figure 1 was generated based on data presented based on the ethaboxam phenotypes presented in [Soybean Associated Oomycete Fungicide Sensitivity](https://github.com/noelzach/Community_Fungicide_Sensitivity)
 * Figure 2 was generated based on a protein alignment by cloning and sequencing beta tubulin from oomycete cultures (Accession Numbers XXX-XXX). Supplemental Table 2 includes the primers and vectors used to clone oomycete beta tubulin. 
 * Figure 3 phylogeny and MCMC runs along with the ancestral sequence reconstruction information can be found in the Fig3 folder.
-* Figure 4 was generated with the code contained within the Fig4 foler. [Treated Seed Virulence Assay](seedrot.md) uses the seedinfectionassay_clean.csv file.
+* Figure 4 was generated with the code contained within the Fig4 foler. [Treated Seed Virulence Assay](Fig4/seedrot.md) uses the seedinfectionassay_clean.csv file.
 * Figure 5 was generated based on information in the Fig. 5 folder. Commands in PeronosporaleanPhylogeny.txt were used to make Figure 5 and expanded version in Supplemental figure 2. These commands use Peronosporalean_betatubulin.fasta to make the alignment with MAFFT. Then use FastTree to make the .newick file. Then upload the .newick file to iTOL. Then load in labels.txt and StarBanches.txt to fully reproduce Supplemental Figure 2. 
 
 * Additionally all sequences associated with this project can be found under Genbank accession numbers XXX-XXX
