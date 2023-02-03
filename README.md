@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/179293391.svg)](https://zenodo.org/badge/latestdoi/179293391)
 # C239SPeronosporaleanEvoution
 This is a project that studies the evolution of a C239S mutation in Peronosporalean oomycetes that coincides with resistance to ethaboxam
 
